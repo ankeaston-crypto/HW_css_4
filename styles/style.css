@@ -1,0 +1,76 @@
+/*======================= ОБЩИЕ СТИЛИ =======================*/
+
+body {
+    background: #d28630;
+    transition: background 0.5s ease; /* Для плавности изменения фона */
+    min-height: 100vh;
+}
+
+body:hover {
+    background: #fdc135;
+}
+
+/*===================== СТИЛИ К ЗАГОЛОВКАМ ===================*/
+
+.first_gf { /* первый шрифт из gf */
+    font-family: Kablammo;
+}
+
+.rgba { /* демонстрируется цветовая модель rgba */
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.custom { /* подключен кастомный шрифт из font face */
+    font-family: MyCustomFont;
+}
+
+.textshadow { /* используется свойство textshadow для текста заголовка */
+    text-shadow: 2px 2px 4px black;
+}
+
+/*=================== СТИЛИ К КОНТЕЙНЕРАМ ===================*/
+
+.p_color { /* применены разные цвета к тексту и фону с использованием свойств color и background-color и второй шрифт из Google Fonts */
+    color: brown;
+    font-family: Prosto One;
+    background-color: rgb(255, 174, 0);
+}
+
+.p_hex { /* демонстрируется цветовая модель hex */
+    color: #ffffff;
+}
+
+h2.p_rgb { /* демонстрируется цветовая модель rgb */
+    color: white;
+}
+
+.p_image { /* добавлено фоновое изображение к одному из блоков с использованием background-image и настроены его свойства (background-size, background-repeat, background-position) */
+    display: block;
+    width: 800px;
+    height: auto;
+    background-image: url('images/Screenshot_2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gradient { /* класс, который применяет градиентный фон с использованием linear-gradient */
+    background: linear-gradient(rgb(11, 137, 233), rgb(124, 74, 240));
+}
+
+.box_shadow { /* используется свойство box-shadow для блока. Добавлен "парящий эффект" */
+    display: block;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(188, 188, 188);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+/*=================== ДОП. СТИЛИ ===================*/
+
+/*=============== ДОБАВЛЯЮ ПРАВИЛО ДЛЯ ПОДКЛЮЧЕНИЯ ШРИФТА ===============*/
+
+@font-face {
+    font-family: MyCustomFont;
+    src: url('fonts/StalinistOne-Regular.ttf');
+}
