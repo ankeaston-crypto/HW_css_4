@@ -10,25 +10,23 @@ body:hover {
     background: #fdc135;
 }
 
-/*===================== СТИЛИ К ЗАГОЛОВКАМ ===================*/
 
-.first_gf { /* первый шрифт из gf */
+h2.first_gf { /* первый шрифт из gf */
     font-family: Kablammo;
 }
 
 .rgba { /* демонстрируется цветовая модель rgba */
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.custom { /* подключен кастомный шрифт из font face */
+h2.custom { /* подключен кастомный шрифт из font face */
     font-family: MyCustomFont;
 }
 
-.textshadow { /* используется свойство textshadow для текста заголовка */
+h2.textshadow { /* используется свойство textshadow для текста заголовка */
     text-shadow: 2px 2px 4px black;
 }
 
-/*=================== СТИЛИ К КОНТЕЙНЕРАМ ===================*/
 
 .p_color { /* применены разные цвета к тексту и фону с использованием свойств color и background-color и второй шрифт из Google Fonts */
     color: brown;
